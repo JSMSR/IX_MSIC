@@ -1,70 +1,78 @@
 {
   "version": "1.0",
-  "timestamp": "2026-02-27T08:02:14Z",
+  "timestamp": "2026-02-27T08:26:23Z",
   "member_list": [
     {
       "as_number": 12198,
+      "asnum": 12198,
       "ip_addresses": [
         "2602:f919:90f:fffa::1219:8"
       ],
       "session_state": "up",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 40929,
+      "asnum": 40929,
       "ip_addresses": [
         "2602:f919:90f:fffa::4092:9"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 138435,
+      "asnum": 138435,
       "ip_addresses": [
         "2602:f919:90f:fffa::1384:35"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 44324,
+      "asnum": 44324,
       "ip_addresses": [
         "2602:f919:90f:fffa::4432:4"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 139317,
+      "asnum": 139317,
       "ip_addresses": [
         "2602:f919:90f:fffa::1393:17"
       ],
       "session_state": "up",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 203472,
+      "asnum": 203472,
       "ip_addresses": [
         "2602:f919:90f:fffa::2034:72"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 201371,
+      "asnum": 201371,
       "ip_addresses": [
         "2602:f919:90f:fffa::2013:71"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     },
     {
       "as_number": 213605,
+      "asnum": 213605,
       "ip_addresses": [
         "2602:f919:90f:fffa::2136:5"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:02:14Z"
+      "last_updated": "2026-02-27T08:26:23Z"
     }
   ]
 }
