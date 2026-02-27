@@ -1,94 +1,236 @@
 {
   "version": "1.0",
-  "timestamp": "2026-02-27T08:40:05Z",
+  "timestamp": "2026-02-27T09:10:52Z",
+  "ixp_list": [
+    {
+      "ixp_id": 4499,
+      "shortname": "MSR IX",
+      "vlan": [
+        {
+          "id": 0
+        }
+      ],
+      "switch": [
+        {
+          "id": 1,
+          "name": "MSR-Core-SW",
+          "colo": "JSMSR Networks MSR Internet Exchange",
+          "city": "Shibuya",
+          "country": "JP",
+          "manufacturer": "Juniper",
+          "model": "MX204"
+        }
+      ]
+    }
+  ],
   "member_list": [
     {
       "as_number": 12198,
       "asnum": 12198,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::1219:8"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "active",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::1219:8",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "up",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 40929,
       "asnum": 40929,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::4092:9"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::4092:9",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 138435,
       "asnum": 138435,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::1384:35"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::1384:35",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 44324,
       "asnum": 44324,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::4432:4"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::4432:4",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 139317,
       "asnum": 139317,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::1393:17"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "active",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::1393:17",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "up",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 203472,
       "asnum": 203472,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::2034:72"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::2034:72",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 201371,
       "asnum": 201371,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::2013:71"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::2013:71",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     },
     {
       "as_number": 213605,
       "asnum": 213605,
-      "ip_addresses": [
-        "2602:f919:90f:fffa::2136:5"
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::2136:5",
+                "routeserver": true
+              }
+            }
+          ]
+        }
       ],
-      "session_state": "down",
-      "last_updated": "2026-02-27T08:40:05Z",
-      "is_rs_peer": true,
-      "if_speed": 1000
+      "last_updated": "2026-02-27T09:10:52Z"
     }
   ]
 }
