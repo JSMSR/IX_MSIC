@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "timestamp": "2026-02-27T10:50:42Z",
+  "timestamp": "2026-02-27T11:45:29Z",
   "ixp_list": [
     {
       "ixp_id": 4499,
@@ -48,7 +48,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 40929,
@@ -74,7 +74,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 138435,
@@ -100,7 +100,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 44324,
@@ -126,7 +126,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 139317,
@@ -152,7 +152,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 203472,
@@ -178,7 +178,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 201371,
@@ -204,7 +204,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 213605,
@@ -230,7 +230,7 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
     },
     {
       "as_number": 207529,
@@ -256,7 +256,33 @@
           ]
         }
       ],
-      "last_updated": "2026-02-27T10:50:42Z"
+      "last_updated": "2026-02-27T11:45:29Z"
+    },
+    {
+      "as_number": 51087,
+      "asnum": 51087,
+      "connection_list": [
+        {
+          "ixp_id": 4499,
+          "state": "inactive",
+          "if_list": [
+            {
+              "if_speed": 1000,
+              "switch_id": 1
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 0,
+              "ipv6": {
+                "address": "2602:f919:90f:fffa::5108:7",
+                "routeserver": true
+              }
+            }
+          ]
+        }
+      ],
+      "last_updated": "2026-02-27T11:45:29Z"
     }
   ]
 }
