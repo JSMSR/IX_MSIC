@@ -8,19 +8,21 @@ from datetime import datetime, timezone
 # --- 配置区 ---
 OUTPUT_DIR = "/opt/bird_ixf"
 JSON_FILENAME = "ixf.json"
+# 使用你确认的路径
+BIRD_CTL_PATH = "/run/bird/bird.ctl"
 # --------------
 
 def parse_bird_to_ixf():
     try:
-        raw_output = subprocess.check_output(["birdc", "s", "p", "a"], text=True)
+        # 显式使用你找到的 /run/bird/bird.ctl 路径
+        raw_output = subprocess.check_output(["birdc", "-s", BIRD_CTL_PATH, "s", "p", "a"], text=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running birdc: {e}")
         return None
 
+    # 按照 BGP 协议块切分内容
     blocks = re.split(r'\n(?=\S+\s+BGP\s+)', raw_output)
     member_list = []
-    
-    # 获取当前 UTC 时间
     now_utc = datetime.now(timezone.utc)
     
     for block in blocks:
@@ -35,15 +37,21 @@ def parse_bird_to_ixf():
             asn_val = int(asn_match.group(1))
             ip = ip_match.group(1)
             state = state_match.group(1) if state_match else "down"
+            
+            # 状态映射逻辑
             ixf_state = "up" if state == "Established" else "down"
             
-            member_list.append({
+            # 构造 PeeringDB 兼容字典
+            member_entry = {
                 "as_number": asn_val,
-                "asnum": asn_val,  # 兼容 PeeringDB
-                "ip_addresses": [ip],
-                "session_state": ixf_state,
-                "last_updated": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
-            })
+                "asnum": asn_val,               
+                "ip_addresses": [ip],           
+                "session_state": ixf_state,     
+                "last_updated": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "is_rs_peer": True,             
+                "if_speed": 1000                
+            }
+            member_list.append(member_entry)
 
     return {
         "version": "1.0",

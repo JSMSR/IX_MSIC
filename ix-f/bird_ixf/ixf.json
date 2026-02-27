@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "timestamp": "2026-02-27T08:26:23Z",
+  "timestamp": "2026-02-27T08:40:05Z",
   "member_list": [
     {
       "as_number": 12198,
@@ -9,7 +9,9 @@
         "2602:f919:90f:fffa::1219:8"
       ],
       "session_state": "up",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 40929,
@@ -18,7 +20,9 @@
         "2602:f919:90f:fffa::4092:9"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 138435,
@@ -27,7 +31,9 @@
         "2602:f919:90f:fffa::1384:35"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 44324,
@@ -36,7 +42,9 @@
         "2602:f919:90f:fffa::4432:4"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 139317,
@@ -45,7 +53,9 @@
         "2602:f919:90f:fffa::1393:17"
       ],
       "session_state": "up",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 203472,
@@ -54,7 +64,9 @@
         "2602:f919:90f:fffa::2034:72"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 201371,
@@ -63,7 +75,9 @@
         "2602:f919:90f:fffa::2013:71"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     },
     {
       "as_number": 213605,
@@ -72,7 +86,9 @@
         "2602:f919:90f:fffa::2136:5"
       ],
       "session_state": "down",
-      "last_updated": "2026-02-27T08:26:23Z"
+      "last_updated": "2026-02-27T08:40:05Z",
+      "is_rs_peer": true,
+      "if_speed": 1000
     }
   ]
 }
